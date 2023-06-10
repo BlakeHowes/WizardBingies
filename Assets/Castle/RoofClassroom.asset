@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2e0948ef3c9d0e041ab5ea9a9d50b1d9, type: 3}
-  m_Name: Potions Class
+  m_Name: RoofClassroom
   m_EditorClassIdentifier: 
-  tile: {fileID: 11400000, guid: b14f29f4e6ab9804e83a0bf347c184eb, type: 2}
+  tile: {fileID: 11400000, guid: c3666292fefa7d04eb050a5c07081af0, type: 2}
   magicGenerated: 1

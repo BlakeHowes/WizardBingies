@@ -2,10 +2,7 @@ using UnityEditor;
 using UnityEngine;
 using System.Collections.Generic;
 using UnityEditor.Callbacks;
-using UnityEngine.UIElements;
-using static UnityEditor.Progress;
 using UnityEditor.Sprites;
-using System;
 
 namespace FolderIcons {
     public class GizmoIconUtility {
@@ -22,7 +19,7 @@ namespace FolderIcons {
                 if (!room.tile) { return; }
                 if (!room.tile.m_DefaultSprite) { return; }
                 if (!room.tile.m_DefaultSprite.texture) { return; }
-                var texture = SpriteUtility.GetSpriteTexture(room.tile.m_DefaultSprite, true);
+                var texture = SpriteUtility.GetSpriteTexture(room.tile.m_DefaultSprite, false);
 
                 Rect rbase = rect;
                 if (rbase.height >= rbase.width) {
